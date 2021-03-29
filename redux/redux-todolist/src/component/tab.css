@@ -1,0 +1,45 @@
+.tab{
+    border: 1px solid #ccc;
+    max-width: 800px;
+    min-height: 500px;
+    max-height: 800px;
+    margin: 40px auto;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+}
+
+.lable{
+    /* border: 1px solid #ccc; */
+    display: inline-block;
+    min-width: 300px;
+    height: 30px;
+    line-height: 30px;
+}
+.lable span{
+    display: inline-block;
+    border: 1px solid #bbb;
+    min-width: 80px;
+    text-align: left;
+    padding: 2px;
+    border-radius: 5px;
+    margin: 0 10px 0 0 ;
+}
+
+.opt{
+    min-width: 300px;
+    height: 30px;
+    /* border: 1px solid #ccc; */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 2px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.slected{
+    background-color: #ccc;
+}

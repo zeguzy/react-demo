@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* 最外层 box */
+.todo-list{
+    border: 1px solid black;
+    max-width: 800px;
+    min-height: 500px;
+    margin: 50px auto;
+
+}
+
+.todo-list table{
+    min-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+
+}
+
+table thead{
+    background: #ccc;
+}
+table{
+    border-spacing:0px;
+    border-collapse:0px;
+}
+
+td{
+    border:1px solid #ccc;
+}

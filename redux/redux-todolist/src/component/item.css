@@ -1,0 +1,22 @@
+.guan{
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+
+.kai{
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #000;
+}
+
+tr{
+    background-color: #eee;
+}
+
+td{
+    padding: 5px;
+}

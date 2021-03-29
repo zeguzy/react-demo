@@ -1,0 +1,17 @@
+{
+  "name": "templete",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "zegu",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack serve  --config ./webpack.dev.config.js --mode development"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.3.1",
+    "redux": "^4.0.5",
+    "webpack": "^5.27.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
